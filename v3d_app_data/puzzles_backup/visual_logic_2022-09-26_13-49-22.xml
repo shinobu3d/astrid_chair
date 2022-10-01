@@ -1,0 +1,128 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="19.999999999999886" scrolly="-45" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="M(X0/[TsLZT?!2:mJ|9W" x="230" y="50">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="%}ZhcIwT~0#(mK~)-q+/" x="170" y="270"></block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="74.2836463076419" scrolly="-155.56451647824815" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="autoRotateCamera" id="mBav[R[P-qquGV?ob!_0" x="190" y="90">
+      <field name="ON_OFF">ON</field>
+      <value name="SPEED">
+        <shadow type="math_number" id="mjwIyq]B|H+:({iPC6G2">
+          <field name="NUM">0.75</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="TO(l7wrC4UYV19K4A9qT" x="90" y="190">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="PGPwU6fUX)v-nr}auMWZ">
+          <field name="TEXT">M1_button</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="080WV*aR|-HwuiP:z]eh">
+          <value name="VALUE2">
+            <shadow type="materialList" id="Bg[LZDlmtbdlU/Uu2l}0">
+              <field name="FIELDNAME">M1</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="+M-w!79-y+,(PD||2G:d">
+              <field name="FIELDNAME">chair</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="1cmR?dCPp`v_=01rt*4G">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id=".NRRcJ3[}Zm!{j;Y#R:|">
+              <field name="TEXT">M2_button</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="3J-YUT*Aa+6r$S~=(@w}">
+              <value name="VALUE2">
+                <shadow type="materialList" id="6SR6Tqkdf[Uh_~nx#bMg">
+                  <field name="FIELDNAME">M2</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="#)~yV!m-wc@RX|v9zUa!">
+                  <field name="FIELDNAME">chair</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id="E[Aka=msOd,0xUH]Lrg$">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <shadow type="text" id="f+0-75oJYRMC#+G5cX}!">
+                  <field name="TEXT">M3_button</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="yS;XLq$nKrmNqdgk04#Z">
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="{sjR]|X;Yx0?cC@Tkt-h">
+                      <field name="FIELDNAME">M3</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id=")egsYp`/4K9+PHV,q7AG">
+                      <field name="FIELDNAME">chair</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+              <next>
+                <block type="eventHTMLElem" id="@sAjM$demg#z?#rSxcH%">
+                  <field name="EVENT">click</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <shadow type="text" id="K6~nx$[hQO2V/`r^#/R_">
+                      <field name="TEXT">M4_button</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="assignMaterial" id="Mjvufs$Fo~DsG..J5^*D">
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="5Aw(ax6nQ*g`R)R:Do8)">
+                          <field name="FIELDNAME">M4</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="QnB5fom{62S?)QfGP-d9">
+                          <field name="FIELDNAME">chair</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setScreenScale" id="g^.e,$oX/(z{Gaa.vg28" x="170" y="610">
+      <value name="FACTOR">
+        <shadow type="math_number" id="J.1$vGLU]x2Uf~ku66a}">
+          <field name="NUM">1.5</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="373" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

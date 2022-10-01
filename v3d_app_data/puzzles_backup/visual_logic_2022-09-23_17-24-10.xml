@@ -1,0 +1,46 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="19.999999999999886" scrolly="-45" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="M(X0/[TsLZT?!2:mJ|9W" x="230" y="50">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="%}ZhcIwT~0#(mK~)-q+/" x="170" y="270"></block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="-13.769535889767667" scrolly="138.80004501342773" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="autoRotateCamera" id="mBav[R[P-qquGV?ob!_0" x="190" y="90">
+      <field name="ON_OFF">ON</field>
+      <value name="SPEED">
+        <shadow type="math_number" id="mjwIyq]B|H+:({iPC6G2">
+          <field name="NUM">0.75</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="TO(l7wrC4UYV19K4A9qT" x="90" y="190">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="PGPwU6fUX)v-nr}auMWZ">
+          <field name="TEXT">M1_button</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="080WV*aR|-HwuiP:z]eh">
+          <value name="VALUE2">
+            <shadow type="materialList" id="Bg[LZDlmtbdlU/Uu2l}0">
+              <field name="FIELDNAME">M1</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="+M-w!79-y+,(PD||2G:d">
+              <field name="FIELDNAME">chair</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="373" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
